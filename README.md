@@ -33,7 +33,7 @@ move to "~/shadowsocksr", then run:
 
 move to "~/shadowsocksr/shadowsocks", then run:
 
-    python server.py -s 144.202.120.105 -p 80 -k p4109636 -m none -O auth_chain_a -o http_post -d start
+    python server.py -s ip -p 80 -k password -m none -O auth_chain_a -o http_post -d start
     
 Check all the options via `-h`.
 
