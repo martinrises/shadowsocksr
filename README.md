@@ -35,6 +35,8 @@ move to "~/shadowsocksr/shadowsocks", then run:
 
     python server.py -s ip -p 80 -k password -m none -O auth_chain_a -o http_post -d start
     
+    python local.py -s ip -p 80 -b 127.0.0.1 -l 1080 -k password -m none -o http_post -O auth_chain_a -d start
+    
 Check all the options via `-h`.
 
 You can also use a configuration file instead (recommend), move to "~/shadowsocksr" and edit the file "user-config.json", then move to "~/shadowsocksr/shadowsocks" again, just run:
